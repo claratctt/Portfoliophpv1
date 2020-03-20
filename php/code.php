@@ -29,7 +29,7 @@ class Users {
                 'username' => $user["username"]
             ];
 
-            header('Location: /');
+            header('Location:index.php');
         }
         else
         {

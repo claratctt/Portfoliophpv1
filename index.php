@@ -25,7 +25,8 @@ $work = new Works;
     </h1>
                 
     <nav class="header-nav">
-        <button type="button">Connexion</button>
+        <a href="login.php" >Connexion</a>
+        <a href="logout.php" >Déconnexion</a>
         <a href="propos.html">à propos</a>
         <a href="contact.html">contact</a>
     </nav>
@@ -51,6 +52,7 @@ $work = new Works;
     <div class="left">
 
 <div class="container"> 
+    <h2>Projets</h2>
 
  <?php
 
@@ -63,7 +65,7 @@ $work = new Works;
         }
 
     ?>
-</div>s
+</div>
 
 <div class="center">
 <div class="container">
