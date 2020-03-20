@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'bluu';
+    src: url('bluunext-bold-webfont.woff2') format('woff2'),
+         url('bluunext-bold-webfont.woff') format('woff'),
+         url('bluunext-bold.ttf') format('truetype'),
+         url('bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'bluu', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+}
+
+.header-nav a{
+    font-size: 21px;
+    font-family: 'Chivo', sans-serif;
+    font-weight: lighter;
+    text-align: right;
+    margin-left: 16px;
+}
+.header-nav a:hover, .header-title a:hover, .lien:hover{
+    color: rgb(175, 175, 175);
+    transition: .5s ease;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-column-gap: 34px;
+}
+
+.left{
+    grid-column: 2 / 3;
+}
+.center{
+    grid-column: 3 / 4;
+}
+.right{
+    grid-column: 4 / 5;
+}
+
+
+p{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 20px;
+    font-family: 'Chivo', sans-serif;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+     display:block;
+    width: auto;
+    max-width: 100%;
+    margin-top: 34px;
+}
+
+
+
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Chivo', sans-serif;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+}
+
+
+
+
+body{
+    margin-bottom: 90px;
+}
+
+    .grid{
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-column-gap: 0px;
+    }
+   
+
+    .header{
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 15px;
+    }
+    .header-nav a{
+        font-size: 18px;
+    }
+
+
+}
+
+
+}
